@@ -35,6 +35,15 @@ http://www.mas.gov.cn/4697379/5282901.html
 江苏镇江市公共文化设施布局规划（2018—2035）
 http://www.buildnet.cn/Notice/Home/NoticeDetail/19d5dd23ab8a11e8803d94de80864b76
 
+深圳重大文体设施建设规划通过 新建十大文化场馆
+http://sz.house.163.com/18/1009/08/DTLP1ADP000788D9.html
+
+株洲市文化体育设施专项规划（2018-2035）
+http://ghj.zhuzhou.gov.cn/c11302/20181221/i809196.html
+
+厦门市公共文化设施布局规划
+http://www.xm.gov.cn/zfxxgk/xxgkznml/szhch/zsfzgh/200911/t20091105_325786.htm
+
 
 # 管理
 
