@@ -17,6 +17,24 @@
 
 如果有，可以将这部分内容作为政策之一种。
 
+张家港市公共文化设施布局规划（2017-2030）
+http://www.zjg.gov.cn/zfxxgk/075003/075003032/075003032003/20170808/55169f03-a4fb-4089-9a33-cab3bbb37b95.html
+
+苏州市区公共文化设施布局规划（2015-2030）
+http://www.zfxxgk.suzhou.gov.cn/sxqzf/szsrmzf/201701/t20170118_837340.html
+
+无锡市区公共文化设施布局规划
+http://gh.wuxi.gov.cn/doc/2015/03/02/331070.shtml
+
+泉州市中心城区公共文化设施布局规划
+http://ghj.quanzhou.gov.cn/wszt/zxgh/201312/t20131202_10066.htm
+
+马鞍山市市区公共文化设施布局规划(2017-2030)
+http://www.mas.gov.cn/4697379/5282901.html
+
+江苏镇江市公共文化设施布局规划（2018—2035）
+http://www.buildnet.cn/Notice/Home/NoticeDetail/19d5dd23ab8a11e8803d94de80864b76
+
 
 # 管理
 
