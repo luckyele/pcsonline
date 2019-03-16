@@ -29,7 +29,7 @@
 			<div id="left_main"></div>
 			<div id="middle_main">
 				<div id="list_middle_main"> 				
-						<li><a href="http://www.nlc.cn/newtsgj/yjdt/" target="_blank">图书馆行业服务动态</a></li>
+						<li><a href="http://www.nlc.cn/newtsgj/yjdt/" target="_blank">图书馆行业服务动态</a><input type="button" onclick="more()" value="更多"></li>
 							<li><a href="http://www.ndcnc.gov.cn/wenhuaguan/" target="_blank">文化馆行业服务动态</a></li>
 						<li><a href="http://www.chinamuseum.org.cn/plus/list.php?tid=156" target="_blank">博物馆行业服务动态</a></li>
 						
@@ -50,9 +50,12 @@
 		<script type="text/javascript" >
 			function more() {
 				var url = 'http://www.nlc.cn/newtsgj/yjdt/';
-				$('#disp').load(url, function(responseTxt, statusTxt, xhr){
-					console.log(statusTxt);
-				});	
+				$('#disp').load(url, function(responseTxt, statusTxt, xhr) {
+					if(statusTxt == "success")
+      				alert("外部内容加载成功!");
+    				if(statusTxt == "error")
+      				alert("Error: "+xhr.status+": "+xhr.statusText);
+			})	;	
 			}
 					
 		</script>		
