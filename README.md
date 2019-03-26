@@ -1,2 +1,14 @@
-# pcsonline
-Public Services of Cultures Resources 
+
+# 公共文化服务在线
+
+本站英文名称为：pcsonline
+
+## 建站目的
+
++ 收集省级以上文化行政管理部门。
++ 收集省级以上公共图书馆、文化馆、博物馆等公共文化机构网站。
++ 收集国家级文化媒体网站。
++ 收集
+
+
+
