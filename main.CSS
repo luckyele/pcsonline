@@ -1,11 +1,11 @@
 			body{
 				margin: 0px;
 				padding: 0px;
-				background-color:#f6f6f6;
-				font-family:"Montserrat","ms song","Arial","Helvetica", "sans-serif";	
+				background-color:#eee;
+				font-family:"Times New Roman","ms song","Arial","Helvetica", "sans-serif";	
 			}
 
-			a {text-decoration:none; color:gray;}
+			a {text-decoration:none; color:#4d4d4d;}
 			a:hover, li a:active {
 				background-color:#7A991A;
 				color: white;
@@ -15,7 +15,7 @@
 				margin: 0px;
 				height: 200px;
 				width: 100%;
-				background-color: #778899;	
+				background-color: #777;	
 			}
 			#site_title {		
 				margin: 0;	
@@ -29,7 +29,7 @@
 				color:white;			
 				line-height: 1.6em;
 				font-size:2.8em ;
-				font-family:"Montserrat","verdana","ms song","Arial","Helvetica", "sans-serif";	
+				font-family:"Times New Roman","verdana","ms song","Arial","Helvetica", "sans-serif";	
 				display: inline-block;				
 			}
 
@@ -50,7 +50,7 @@
 				float: left;
 				list-style: none;
 				display: inline;
-				color: gray;	
+				color: #4d4d4d;	
 				line-height: 40px;			
 			}
 			#main {
@@ -62,7 +62,7 @@
 				width: 20%;			
 			}
 			#left_main_con {
-				background-color: rgb(240, 249, 253);
+				background-color: rgb(238, 238, 238);
 				margin-bottom: 0px;			
 				border-top: solid 10px;
 				color: gray;				
@@ -86,15 +86,15 @@
 				margin-bottom: 30px;
 				padding: 10px;
 				width: 100%;
-				background-color:rgb(240, 249, 253);
+				background-color:rgb(238, 238, 238);
 				border: solid 1px gray;
-				box-shadow: -1px 0 2px 0 rgba(0,0,0,0.12),1px 0 2px 0 rgba(0,0,0,0.12),0 1px 1px 0 rgba(0,0,0,0.24);
+				
 			}
 
 			#list_middle_main li {
 				list-style: none;
 				line-height: 1.5em;
-				color: gray;										
+				color: #4d4d4d;										
 			}
 
 
@@ -110,8 +110,8 @@
 				margin: 5px;	
 				height: 220px;
 				width: 99%;
-				background-color: rgb(240, 249, 253);
-				border:solid 1px gray;
+				background-color: rgb(238, 238, 238);
+				border:solid 1px #4d4d4d;
 			}
 
 			.left_con {
@@ -156,24 +156,19 @@
 				height:1.5em;
 				list-style: none;	
 			}
-			/*.right_con2 a {text-decoration: none; color:gray;}
-			.right_con2 a:hover,a:active {
-				background-color:#7A991A;
-				color: white;
-			}			*/
-
+			
 			.right_con3 {
 				padding: 10px 10px;
 				font-weight:normal;
 				position: relative;
-				left:2em;				
+				left:2em;						
 				display:table-cell;
 				text-align: left;
 				vertical-align: middle;							
 			}
 			.right_con3 li {
 				width: 400px;
-				height: 1.8em;
+				height: 1.5;
 				list-style: none;
 						
 			}	
@@ -184,11 +179,12 @@
 				float:left;
 				margin: 0;
 				padding-top: 20px;
-				background-color:#778899; 
+				background-color:#777; 
 				vertical-align: middle;
-				color: rgb(240, 249, 253);
+				color: rgb(238, 238, 238);
 			}
 			#bottom p {
+				font-family:"Times New Roman","ms song","Arial","Helvetica", "sans-serif";
 				color:white;
 				margin: 0;
 				padding: 0;			
