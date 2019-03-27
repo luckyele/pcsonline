@@ -4,13 +4,14 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=1400" />  
 		<title>公共文化服务在线——最全的公共文化服务中转站(测试)</title>
-		<link rel="stylesheet" href="/main.CSS?+Math.random()">
+		<link rel="stylesheet" href="/main.CSS"+Math.random()>
 		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
 	</head>
 
 	<body>
 		<div id="title_bar">
-			<div id="site_title"><p>公共文化服务在线（测试）<br> Public Services of Culture Resources<p></div>	
+			
+			<div id="site_title"><p>公共文化服务在线（测试）<p></div>	
 		</div>
 		
 		<div id="menu">
@@ -338,6 +339,7 @@
 					<div class="right_con2">
 						<li><a href="https://www.ifla.org/"  target="_blank">国际图联</a></li>
 						<li><a href="https://www.imls.gov/"  target="_blank">美国博物馆和图书馆服务协会</a></li>
+						<li><a href="https://www.alia.org.au/"  target="_blank">澳大利亚图书馆与信息协会</a></li>
 
 					</div>
 					<div class="right_con2">
@@ -358,15 +360,14 @@
 			</div>
 							
 			<div id="right_main">
-				<a href="http://mp.weixin.qq.com/mp/homepage?__biz=MzAxMjEwODEyMw==&hid=4&sn=2de066b1b00deafb6713f9946ca9e6ac&scene=18#wechat_redirect"><img src="/logo.jpg"></a>
+				
 			</div>		
 		</div>
 
 		<div id="bottom" > 
-			<p>
-				推荐分辨率：1600*900<br>
-				欢迎勘误：pcsonline AT 163.com<br>
-				本站资源全部来自互联网，欢迎交流、分享 
+			<p><img src="/logo1.png" width="90" height="90" align="middle"/>
+				<img src="/logo.jpg" width="90" height="90" align="middle"/></p><p>
+				<br>推荐分辨率：1600*900 <br>欢迎勘误：pcsonline AT 163.com<br> 本站资源全部来自互联网，欢迎交流、分享 
 			</p>
 		</div>
 		
