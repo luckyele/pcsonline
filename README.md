@@ -3,7 +3,7 @@
 
 ![Logo](logo1.png) 
 
-![Logo](logo.png) 
+![Logo](logo.jpg) 
 
 
 本站英文名称为： pcsonline，是 Public services of culture online 之缩写。
