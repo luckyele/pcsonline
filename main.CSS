@@ -19,7 +19,6 @@ a:hover, li a:active {
 }
 #site_title {		
 	margin: 0;	
-	/*line-height: 190px;*/	
 	text-align: center;
 	
 }
@@ -29,7 +28,6 @@ a:hover, li a:active {
 	color:white;			
 	line-height: 1.6em;
 	font-size:2.8em ;
-	/*font-family:"Times New Roman","verdana","ms song","Arial","Helvetica", "sans-serif";	*/
 	display: inline-block;				
 }
 
@@ -189,5 +187,3 @@ a:hover, li a:active {
 	font:1.2em bold;
 	line-height: 1.5em;
 }
-			
-			
