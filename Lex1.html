@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html>
+	<head>  
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />  
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+		<title>国家公共文化服务体系示范区总览</title>  
+		<link rel="stylesheet" href="lex1.css"+Math.random()>
+		<script src="http://api.map.baidu.com/api?v=2.0&ak=OQUXHOaGqzmKDZ2HfYA80SGU35yzrWcp">
+		</script>
+		<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+		<script src="annyang.min.js"></script>
+
+	</head>  
+ 
+	<body>  
+		<div id="title">国家公共文化服务体系示范区总览</div>
+		<div id="container"></div> 
+
+		<div id="buttons">
+			<button onclick="displayArea()">显示</button>  
+			<button onclick="removeMarker()">取消显示</button>  
+		</div>
+		
+
+		<div id="mapsample">
+			<ul>
+				<li>首批</li><div id="c1"></div>
+				<li>第二批</li><div id="c2"></div>
+				<li>第三批</li><div id="c3"></div>
+				<li>第四批</li><div id="c4"></div>
+			</ul>
+		</div>
+
+		<!-- <div id="selectArea">
+			<input id="select_all" type="checkbox" value="0" onclick="onClickSelectAll()" /><label>全选</label>
+			<input id="first" type="checkbox" value="0" /><label>首批</label>
+			<input id="second" type="checkbox" value="0" /><label>第二批</label>
+			<input id="third" type="checkbox" value="0" /><label>第三批</label>
+			<input id="forth" type="checkbox" value="0" /><label>第四批</label>
+		</div> -->
+
+		<script type="text/javascript">
+
+			var map = new BMap.Map("container");
+			var point = new BMap.Point(108.116861,35.969056);
+			map.centerAndZoom(point,5);
+			map.enableScrollWheelZoom();
+			map.enableKeyboard();
+
+			map.addControl(new BMap.NavigationControl())
+			var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+			map.addControl(ctrl_nav);
+
+ 			//去除路网
+            map.setMapStyle({
+                styleJson:[
+                 {
+	                 "featureType": "road",
+	                 "elementType": "all",
+	                 "stylers": {
+						  "color": "#ffffff",
+						  "visibility": "off"
+			          }
+                  },
+                  {
+                      "featureType": "building",
+                      "elementType": "all",
+                      "stylers": {
+                          "visibility": "off"
+                      }
+                  },
+                  {
+                      "featureType": "poilabel",
+                      "elementType": "all",
+                      "stylers": {
+                          "visibility": "off"
+                      }
+                  },
+                  {
+                      "featureType": "manmade",
+                      "elementType": "all",
+                      "stylers": {
+                          "visibility": "off"
+                      }
+                  },
+                ]
+            });
+
+			function displayArea(){
+			    $.get("json/demo_regions.json", function(data){
+			    	console.log(data);
+			    	for (var i = 0; i < data.length; i++) {
+			    		switch(data[i].time) {
+			    			case 1: getBoundary(data[i].city, "blue"); break;
+			    			case 2: getBoundary(data[i].city, "yellow"); break;
+			    			case 3: getBoundary(data[i].city, "green"); break;	
+			    			case 4: getBoundary(data[i].city, "red"); break;
+		    			}
+			    	}
+			    });
+            }
+
+			function getBoundary(name, color){       
+			    var bdary = new BMap.Boundary();
+			    bdary.get(name, function(rs){       
+			        //map.clearOverlays();        
+			        var count = rs.boundaries.length; 
+			        for(var i = 0; i < count; i++){
+			            var ply = new BMap.Polygon(rs.boundaries[i], 
+			            	{strokeWeight:2,fillColor:color,strokeColor:color}); 
+			            map.addOverlay(ply);
+			            //map.setViewport(ply.getPath());
+			        }
+			    });
+			    
+			}
+
+			function removeMarker(){
+				var allMarkers = map.getOverlays();
+				for(var i = 0; i < allMarkers.length; i++) {
+					map.removeOverlay(allMarkers[i]);
+				}
+			}
+
+			/*function checkStatus(){
+			    var FLAG_MASS = 1
+			    var FLAG_LIB = 2
+			    var FLAG_MU = 4
+			    var FLAG_ST = 8
+			    var flag = 0
+			    var v1 = document.getElementById("first");
+			    var v2 = document.getElementById("second");
+			    var v3 = document.getElementById("third");
+			    var v4 = document.getElementById("forth");
+
+			    if (v1.checked)
+			        flag |= FLAG_MASS;
+			    if (v2.checked)
+			        flag |= FLAG_LIB;
+			    if (v3.checked)
+			        flag |= FLAG_MU;
+			    if (v4.checked)
+			        flag |= FLAG_ST;
+			    console.log(flag);
+			    return flag;
+			}
+
+			function onClickSelectAll(){
+			    var v1 = document.getElementById("first");
+			    var v2 = document.getElementById("second");
+			    var v3 = document.getElementById("third");
+			    var v4 = document.getElementById("forth");
+			    if (document.getElementById("select_all").checked == true) {
+			        v1.checked = true;
+			        v2.checked = true;
+			        v3.checked = true;
+			        v4.checked = true;
+			    }
+			    else {
+			        v1.checked = false;
+			        v2.checked = false;
+			        v3.checked = false;
+			        v4.checked = false;
+			    }
+			}
+*/
+			
+
+			
+/*			function displayFacilities(){
+				var name = $("#districtName").val();
+				getBoundary(name);
+///				drawMarker();
+			}
+*/
+
+	    </script>  
+				
+	</body>
+</html>
+

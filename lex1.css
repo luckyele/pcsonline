@@ -1,0 +1,86 @@
+html{height:100%;}
+
+body{
+	height:100%;
+	margin:0px;
+	padding:0px;
+}
+
+#title{font: 1.5em bold;text-align: center;}
+
+#container{margin:5px 5px;height:80%;}  
+
+#selectArea{margin:5px; padding:5px 0 0 0;align-self:center; }
+
+#buttons {
+	margin: 0 5px;
+	text-align: center;
+}
+
+button{
+	padding: 5px 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	width: 120px;
+	cursor: pointer;
+	background-color: white;
+	color: black;
+	border: 1px solid #e7e7e7;
+}
+
+#mapsample {
+	display: inline;
+	text-align: middle;
+}
+
+#mapsample li {
+	font-size: 14px;
+	float: left;
+	list-style: none;
+	width: 3em;
+	
+}
+
+#selectArea {
+	margin: 0 5px;
+	padding: 0;
+	text-align: center;
+	
+}
+
+#c1 {
+	margin-right: 2em;
+	margin-left: 1em;
+	float:left;
+	width: 30px;
+	height: 1.5em;
+	background: blue;
+}
+
+#c2 {
+	margin-left: 1em;
+	margin-right: 2em;
+	float:left;
+	width: 30px;
+	height: 1.5em;
+	background: yellow;
+}
+
+#c3 {
+	margin-left: 1em;
+	margin-right: 2em;
+	float:left;
+	width: 30px;
+	height: 1.5em;
+	background: green;
+}
+#c4 {
+	margin-left: 1em;
+	margin-right: 2em;
+	float:left;
+	width: 30px;
+	height: 1.5em;
+	background: red;
+}

@@ -1,0 +1,587 @@
+[
+  {
+    "province": "北京市",
+    "city": "朝阳区",
+    "time": 1
+  },
+  {
+    "province": "河北省",
+    "city": "秦皇岛市",
+    "time": 1
+  },
+  {
+    "province": "山西省",
+    "city": "长治市",
+    "time": 1
+  },
+  {
+    "province": "内蒙古自治区",
+    "city": "鄂尔多斯市",
+    "time": 1
+  },
+  {
+    "province": "辽宁省",
+    "city": "大连市",
+    "time": 1
+  },
+  {
+    "province": "吉林省",
+    "city": "长春市",
+    "time": 1
+  },
+  {
+    "province": "黑龙江省",
+    "city": "牡丹江市",
+    "time": 1
+  },
+  {
+    "province": "上海市",
+    "city": "徐汇区",
+    "time": 1
+  },
+  {
+    "province": "江苏省",
+    "city": "苏州市",
+    "time": 1
+  },
+  {
+    "province": "浙江省",
+    "city": "宁波市鄞州区",
+    "time": 1
+  },
+  {
+    "province": "安徽省",
+    "city": "马鞍山市",
+    "time": 1
+  },
+  {
+    "province": "福建省",
+    "city": "厦门市",
+    "time": 1
+  },
+  {
+    "province": "江西省",
+    "city": "赣州市",
+    "time": 1
+  },
+  {
+    "province": "山东省",
+    "city": "青岛市",
+    "time": 1
+  },
+  {
+    "province": "湖北省",
+    "city": "黄石市",
+    "time": 1
+  },
+  {
+    "province": "湖南省",
+    "city": "长沙市",
+    "time": 1
+  },
+  {
+    "province": "广东省",
+    "city": "东莞市",
+    "time": 1
+  },
+  {
+    "province": "广西壮族自治区",
+    "city": "来宾市",
+    "time": 1
+  },
+  {
+    "province": "海南省",
+    "city": "澄迈县",
+    "time": 1
+  },
+  {
+    "province": "重庆市",
+    "city": "渝中区",
+    "time": 1
+  },
+  {
+    "province": "四川省",
+    "city": "成都市",
+    "time": 1
+  },
+  {
+    "province": "贵州省",
+    "city": "遵义市",
+    "time": 1
+  },
+  {
+    "province": "云南省",
+    "city": "保山市",
+    "time": 1
+  },
+  {
+    "province": "西藏自治区",
+    "city": "林芝地区",
+    "time": 1
+  },
+  {
+    "province": "陕西省",
+    "city": "宝鸡市",
+    "time": 1
+  },
+  {
+    "province": "甘肃省",
+    "city": "金昌市",
+    "time": 1
+  },
+  {
+    "province": "青海省",
+    "city": "格尔木市",
+    "time": 1
+  },
+  {
+    "province": "新疆维吾尔自治区",
+    "city": "喀什地区",
+    "time": 1
+  },
+  {
+    "province": "北京市",
+    "city": "东城区",
+    "time": 2
+  },
+  {
+    "province": "天津市",
+    "city": "河西区",
+    "time": 2
+  },
+  {
+    "province": "河北省",
+    "city": "廊坊市",
+    "time": 2
+  },
+  {
+    "province": "山西省",
+    "city": "朔州市",
+    "time": 2
+  },
+  {
+    "province": "辽宁省",
+    "city": "沈阳市沈河区",
+    "time": 2
+  },
+  {
+    "province": "内蒙古自治区",
+    "city": "包头市",
+    "time": 2
+  },
+  {
+    "province": "吉林省",
+    "city": "延边朝鲜族自治州",
+    "time": 2
+  },
+  {
+    "province": "黑龙江省",
+    "city": "哈尔滨市南岗区",
+    "time": 2
+  },
+  {
+    "province": "上海市",
+    "city": "浦东新区",
+    "time": 2
+  },
+  {
+    "province": "江苏省",
+    "city": "无锡市",
+    "time": 2
+  },
+  {
+    "province": "浙江省",
+    "city": "嘉兴市",
+    "time": 2
+  },
+  {
+    "province": "安徽省",
+    "city": "安庆市",
+    "time": 2
+  },
+  {
+    "province": "福建省",
+    "city": "三明市",
+    "time": 2
+  },
+  {
+    "province": "江西省",
+    "city": "新余市",
+    "time": 2
+  },
+  {
+    "province": "山东省",
+    "city": "烟台市",
+    "time": 2
+  },
+  {
+    "province": "河南省",
+    "city": "洛阳市",
+    "time": 2
+  },
+  {
+    "province": "湖北省",
+    "city": "襄阳市",
+    "time": 2
+  },
+  {
+    "province": "湖南省",
+    "city": "岳阳市",
+    "time": 2
+  },
+  {
+    "province": "广东省",
+    "city": "深圳市福田区",
+    "time": 2
+  },
+  {
+    "province": "海南省",
+    "city": "保亭黎族苗族自治县",
+    "time": 2
+  },
+  {
+    "province": "广西自治区",
+    "city": "玉林市",
+    "time": 2
+  },
+  {
+    "province": "重庆市",
+    "city": "北碚区",
+    "time": 2
+  },
+  {
+    "province": "四川省",
+    "city": "南充市",
+    "time": 2
+  },
+  {
+    "province": "贵州省",
+    "city": "贵阳市",
+    "time": 2
+  },
+  {
+    "province": "云南省",
+    "city": "楚雄彝族自治州",
+    "time": 2
+  },
+  {
+    "province": "西藏自治区",
+    "city": "山南地区",
+    "time": 2
+  },
+  {
+    "province": "陕西省",
+    "city": "渭南市",
+    "time": 2
+  },
+  {
+    "province": "甘肃省",
+    "city": "张掖市",
+    "time": 2
+  },
+  {
+    "province": "宁夏自治区",
+    "city": "石嘴山市",
+    "time": 2
+  },
+  {
+    "province": "青海省",
+    "city": "西宁市",
+    "time": 2
+  },
+  {
+    "province": "新疆自治区",
+    "city": "克拉玛依市",
+    "time": 2
+  },
+  {
+    "province": "新疆生产建设兵团",
+    "city": "农八师石河子市",
+    "time": 2
+  },
+  {
+    "province": "北京市",
+    "city": "海淀区",
+    "time": 3
+  },
+  {
+    "province": "天津市",
+    "city": "北辰区",
+    "time": 3
+  },
+  {
+    "province": "河北省",
+    "city": "沧州市",
+    "time": 3
+  },
+  {
+    "province": "山西省",
+    "city": "晋中市",
+    "time": 3
+  },
+  {
+    "province": "内蒙古自治区",
+    "city": "呼和浩特市",
+    "time": 3
+  },
+  {
+    "province": "辽宁省",
+    "city": "盘锦市",
+    "time": 3
+  },
+  {
+    "province": "吉林省",
+    "city": "吉林市",
+    "time": 3
+  },
+  {
+    "province": "黑龙江省",
+    "city": "哈尔滨市道里区",
+    "time": 3
+  },
+  {
+    "province": "上海市",
+    "city": "嘉定区",
+    "time": 3
+  },
+  {
+    "province": "江苏省",
+    "city": "南京市江宁区",
+    "time": 3
+  },
+  {
+    "province": "浙江省",
+    "city": "台州市",
+    "time": 3
+  },
+  {
+    "province": "安徽省",
+    "city": "铜陵市",
+    "time": 3
+  },
+  {
+    "province": "福建省",
+    "city": "福州市",
+    "time": 3
+  },
+  {
+    "province": "江西省",
+    "city": "九江市",
+    "time": 3
+  },
+  {
+    "province": "山东省",
+    "city": "东营市",
+    "time": 3
+  },
+  {
+    "province": "河南省",
+    "city": "济源市",
+    "time": 3
+  },
+  {
+    "province": "湖北省",
+    "city": "宜昌市",
+    "time": 3
+  },
+  {
+    "province": "湖南省",
+    "city": "株洲市",
+    "time": 3
+  },
+  {
+    "province": "广东省",
+    "city": "佛山市",
+    "time": 3
+  },
+  {
+    "province": "广西自治区",
+    "city": "防城港市",
+    "time": 3
+  },
+  {
+    "province": "重庆市",
+    "city": "江津区",
+    "time": 3
+  },
+  {
+    "province": "四川省",
+    "city": "乐山市",
+    "time": 3
+  },
+  {
+    "province": "贵州省",
+    "city": "毕节市",
+    "time": 3
+  },
+  {
+    "province": "云南省",
+    "city": "曲靖市",
+    "time": 3
+  },
+  {
+    "province": "西藏自治区",
+    "city": "拉萨市",
+    "time": 3
+  },
+  {
+    "province": "陕西省",
+    "city": "铜川市",
+    "time": 3
+  },
+  {
+    "province": "甘肃省",
+    "city": "白银市",
+    "time": 3
+  },
+  {
+    "province": "宁夏自治区",
+    "city": "吴忠市",
+    "time": 3
+  },
+  {
+    "province": "新疆自治区",
+    "city": "昌吉回族自治州",
+    "time": 3
+  },
+  {
+    "province": "新疆生产建设兵团",
+    "city": "第六师五家渠市",
+    "time": 3
+  },
+  {
+    "province": "北京市",
+    "city": "石景山区",
+    "time": 4
+  },
+  {
+    "province": "天津市",
+    "city": "滨海新区",
+    "time": 4
+  },
+  {
+    "province": "上海市",
+    "city": "长宁区",
+    "time": 4
+  },
+  {
+    "province": "江苏省",
+    "city": "镇江市",
+    "time": 4
+  },
+  {
+    "province": "浙江省",
+    "city": "温州市",
+    "time": 4
+  },
+  {
+    "province": "福建省",
+    "city": "泉州市",
+    "time": 4
+  },
+  {
+    "province": "山东省",
+    "city": "威海市",
+    "time": 4
+  },
+  {
+    "province": "广东省",
+    "city": "中山市",
+    "time": 4
+  },
+  {
+    "province": "河北省",
+    "city": "唐山市",
+    "time": 4
+  },
+  {
+    "province": "山西省",
+    "city": "晋城市",
+    "time": 4
+  },
+  {
+    "province": "吉林省",
+    "city": "辽源市",
+    "time": 4
+  },
+  {
+    "province": "黑龙江省",
+    "city": "大庆市",
+    "time": 4
+  },
+  {
+    "province": "安徽省",
+    "city": "蚌埠市",
+    "time": 4
+  },
+  {
+    "province": "江西省",
+    "city": "萍乡市",
+    "time": 4
+  },
+  {
+    "province": "河南省",
+    "city": "许昌市",
+    "time": 4
+  },
+  {
+    "province": "湖北省",
+    "city": "黄冈市",
+    "time": 4
+  },
+  {
+    "province": "湖南省",
+    "city": "永州市",
+    "time": 4
+  },
+  {
+    "province": "海南省",
+    "city": "三亚市",
+    "time": 4
+  },
+  {
+    "province": "重庆市",
+    "city": "南岸区",
+    "time": 4
+  },
+  {
+    "province": "四川省",
+    "city": "攀枝花市",
+    "time": 4
+  },
+  {
+    "province": "贵州省",
+    "city": "六盘水市",
+    "time": 4
+  },
+  {
+    "province": "云南省",
+    "city": "昆明市",
+    "time": 4
+  },
+  {
+    "province": "西藏自治区",
+    "city": "日喀则市",
+    "time": 4
+  },
+  {
+    "province": "陕西省",
+    "city": "安康市",
+    "time": 4
+  },
+  {
+    "province": "宁夏回族自治区",
+    "city": "固原市",
+    "time": 4
+  },
+  {
+    "province": "新疆维吾尔自治区",
+    "city": "伊犁哈萨克自治州",
+    "time": 4
+  },
+  {
+    "province": "新疆生产建设兵团",
+    "city": "阿拉尔市",
+    "time": 4
+  }
+]
