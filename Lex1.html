@@ -103,16 +103,21 @@
 			function getBoundary(name, color){       
 			    var bdary = new BMap.Boundary();
 			    bdary.get(name, function(rs){       
-			        //map.clearOverlays();        
 			        var count = rs.boundaries.length; 
 			        for(var i = 0; i < count; i++){
 			            var ply = new BMap.Polygon(rs.boundaries[i], 
-			            	{strokeWeight:2,fillColor:color,strokeColor:color}); 
+			            	{strokeWeight:2, fillColor:color, strokeColor:color}); 
 			            map.addOverlay(ply);
+			            (function() {
+            				ply.addEventListener("click", function() { 
+            					alert(name);
+            					
+            				});
+        		 		})();  
 			            //map.setViewport(ply.getPath());
 			        }
+			        
 			    });
-			    
 			}
 
 			function removeMarker(){
@@ -164,16 +169,13 @@
 			    }
 			}
 */
-			
 
-			
 /*			function displayFacilities(){
 				var name = $("#districtName").val();
 				getBoundary(name);
 ///				drawMarker();
 			}
 */
-
 	    </script>  
 				
 	</body>
