@@ -16,19 +16,20 @@
 		<div id="title">国家公共文化服务体系示范区总览</div>
 		<div id="container"></div> 
 
-		<div id="mapsample">
-			<li>第一批</li><div id="c1"></div>
-			<li>第二批</li><div id="c2"></div>
-			<li>第三批</li><div id="c3"></div>
-			<li>第四批＊</li><div id="c4"></div>
-		</div>
 		<div id="buttons">
 			<button onclick="displayArea()">显示</button>  
 			<button onclick="removeMarker()">取消显示</button>  
 		</div>
 		
 
-	
+		<div id="mapsample">
+			<ul>
+				<li>第一批</li><div id="c1"></div>
+				<li>第二批</li><div id="c2"></div>
+				<li>第三批</li><div id="c3"></div>
+				<li>第四批＊</li><div id="c4"></div>
+			</ul>
+		</div>
 
 		<!-- <div id="selectArea">
 			<input id="select_all" type="checkbox" value="0" onclick="onClickSelectAll()" /><label>全选</label>

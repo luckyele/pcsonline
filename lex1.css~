@@ -14,7 +14,8 @@ body{
 	margin: 0 5px;
 	text-align: center;
 	width: 300px;
-	float:right;		
+	float:right;
+		
 }
 
 button{
