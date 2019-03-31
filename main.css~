@@ -66,7 +66,7 @@ a:hover, li a:active {
 	color: gray;				
 }
 #left_main_con li{
-	padding-left: 5px;
+	padding-left: 20px;
 	list-style: none;				
 	border:solid gray;
 	border-width: 0 1px 1px 1px;			
@@ -110,7 +110,6 @@ a:hover, li a:active {
 	border-top: solid 10px;
 	color: gray;				
 }
-
 #right_main_con li{
 	padding-left: 5px;
 	list-style: none;				

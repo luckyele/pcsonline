@@ -27,6 +27,10 @@
 		<div id="main">
 			<div id="left_main">
 				<div id="left_main_con">
+					<li><a href="/Lex1.html" target="_blank">全国示范区总览</a></li>
+				</div>
+			
+				<div id="left_main_con">
 					<li><a href="http://www.ucdrs.superlib.net/" target="_blank">全国图书馆参考咨询联盟</a></li>
 					<li><a href="http://www.cpll.cn/" target="_blank">文化政策图书馆</a></li>
 					<li><a href="http://data.stats.gov.cn/easyquery.htm?cn=C01" target="_blank">文化数据统计</a></li>
@@ -62,6 +66,12 @@
 				</div>
 	
 				<div id="left_main_con">
+					<li><a href="http://www.nlc.cn/newtsgj/yjdt/" target="_blank">图书馆行业动态</a></li>
+					<li><a href="http://www.ndcnc.gov.cn/wenhuaguan/" target="_blank">文化馆行业动态</a></li>
+					<li><a href="http://www.chinamuseum.org.cn/plus/list.php?tid=156" target="_blank">博物馆行业动态</a></li>
+				</div>	
+	
+				<div id="left_main_con">
 					<li><a href="http://www.culturedc.cn/index.html" target="_blank">国家公共文化云</a></li>
 					<li><a href="http://www.wenhuayun.cn/frontIndex/index.do" target="_blank">上海文化云</a></li>
 					<li><a href="http://www.jsggwhy.com/" target="_blank">江苏公共文化云</a></li>
@@ -72,12 +82,9 @@
 					<li><a href="https://cqqyg.cn/" target="_blank">重庆群众文化云</a></li>
 					<li><a href="http://nmgwhy.com/" target="_blank">内蒙古文化云</a></li>	
 					<li><a href="http://www.gzbjwhy.cn/" target="_blank">毕节文化云</a></li>	
-				</div>
-				
-				<div id="left_main_con">
-					<li><a href="Lex1.html" target="_blank">全国示范区总览</a></li>
-					
-				</div>
+				</div>			
+
+							
 				
 			</div>
 
@@ -363,8 +370,11 @@
 			</div>
 							
 			<div id="right_main">
-				
-			</div>		
+				<div id="right_main_con">		
+					
+				</div>
+			</div>
+					
 		</div>
 
 		<div id="bottom" > 
