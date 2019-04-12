@@ -2,7 +2,9 @@ body{
 	margin: 0px;
 	padding: 0px;
 	background-color:#eee;
-	font-family:"Times New Roman","ms song","Arial","Helvetica", "sans-serif";	
+	font-family:"Times New Roman","ms song","Arial","Helvetica", "sans-serif";
+	overflow: -Scroll;
+	overflow-x:hidden;	
 }
 
 a {text-decoration:none; color:#4d4d4d;}
