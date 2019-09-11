@@ -144,7 +144,7 @@ a:hover, li a:active {
 .right_con {
 	font-weight:normal;
 	position: relative;
-	left:2em;
+	left:2.5em;
 	display:table-cell;	
 	text-align: left;
 	vertical-align: middle;				
